@@ -1,0 +1,85 @@
+/*individual box css including border forming game grid*/
+.board{
+
+}
+
+.box{
+text-align: center;
+
+}
+#box1{
+	background:red;
+	border:2px black solid;
+	height:150px;
+	width:20%;
+	float:left;
+}
+
+#box2{
+	background:blue;
+	border:2px black solid;
+	height:150px;
+	width:20%;
+	float:left;
+}
+
+#box3{
+	background:red;
+	border:2px black solid;
+	height:150px;
+	width:20%;
+	float:left;
+}
+
+#box4{
+	background:blue;
+	border:2px black solid;
+	height:150px;
+	width:20%;
+	clear:left;
+	float:left;
+}
+
+
+#box5{
+	background:red;
+	border:2px black solid;
+	height:150px;
+	width:20%;
+	float:left;
+}
+
+#box6{
+	background:blue;
+	border:2px black solid;
+	height:150px;
+	width:20%;
+	float:left;
+}
+
+#box7{
+	background:red;
+	border:2px black solid;
+	height:150px;
+	width:20%;
+	clear:left;
+	float:left;
+}
+
+#box8{
+	background:blue;
+	border:2px black solid;
+	height:150px;
+	width:20%;
+	float:left;
+}
+
+#box9{
+	background:red;
+	border:2px black solid;
+	height:150px;
+	width:20%;
+	float:left;
+}
+
+
