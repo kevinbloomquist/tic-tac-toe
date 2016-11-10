@@ -1,9 +1,15 @@
 /*individual box css including border forming game grid*/
-.board{
+h1{
+	font-family:verdana;
+	font-size: 50px;
+}
 
+.board{
 }
 
 .box{
+font-size: 50px;
+padding-top:50px;
 text-align: center;
 color:white;
 
@@ -92,6 +98,14 @@ color:white;
 	height:150px;
 	width:150px;
 	float:left;
+}
+
+.oState{
+
+}
+
+.xState{
+
 }
 
 
