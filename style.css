@@ -23,7 +23,12 @@ button{
 	width:462px;
 }
 
-.box.clicked{
+.clicked{
+background-color:white;
+color:black;
+text-align: center;
+font-size: 40px;
+padding-top:50px;
 
 }
 

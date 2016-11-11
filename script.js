@@ -1,5 +1,5 @@
 var test = function() {
-console.log("new refresh");
+console.log("new refresh!");
 };
 
 $( document ).ready(function() {
@@ -32,15 +32,23 @@ console.log(currentCount);
 // ChangeState defines how to change the css of a specific box(div) once clicked.
 // Once tested and functional maybe figure out how to use .this to dry out the methodology.
 var changeState = function(){
-	if(counter%2===0) {
-		document.getElementById("#box1").setAttribute("class","clicked").innerHTML("<p>X</p>");
-	} else if (counter%2===1) {
-		document.getElementById("#box1").setAttribute("class","clicked").innerHTML("<p>O</p>");
+	if(currentCount%2===0) {
+		$("#box1").removeClass("box");
+		this.addClass("clicked");
+		this.html("<p>X</p>");
+	} else if (currentCount%2===1) {
+		$("#box1").removeClass("box");
+		this.addClass("clicked");
+		this.html("<p>O</p>");
 	}
+	console.log(currentCount);
+	// checkForWin();
 };
 console.log(changeState);
 //Adds event listener to each div and runs the changeState function to create x or o
-$("#box1").on("click",changeState);
+$("#box1").on("click", function(){
+    alert("The paragraph was clicked.");
+});
 $("#box2").on("click",changeState);
 $("#box3").on("click",changeState);
 $("#box4").on("click",changeState);
