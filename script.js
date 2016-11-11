@@ -3,9 +3,11 @@ console.log("JS Test");
 };
 console.log(test);
 // listen for click and on click run the counter function advancing the counter
-var boardClick = document.getElementByClass("grid").AddEventListener("click",counter);
-var counter = function(){
-
+var boardClick = document.getElementByClassName("grid");
+boardClick.AddEventListener("click",counter);
+var currentCount = 0;
+var counter  = function(){
+	currentCount++;
 };
 console.log(counter);
 // ChangeState defines how to change the css of a specific box(div) once clicked.
@@ -30,9 +32,12 @@ document.getElementById("box8").addEventListener("click",changeState);
 document.getElementById("box9").addEventListener("click",changeState);
 
 // Add winState.
-// if(box 123||or box 456||or159...)
+// var winState = function(){
+	// console.log("win function running")
+	// if()
+}
 
 // add reset button
 
-// Add H1 and clean up positioning
+// Add document.ready(), and clean up positioning
 
