@@ -3,13 +3,17 @@ console.log("JS Test");
 };
 console.log(test);
 // listen for click and on click run the counter function advancing the counter
-var boardClick = document.getElementByClassName("grid");
-boardClick.AddEventListener("click",counter);
+var boardClick = document.getElementsByClassName("grid");
+
+console.log(boardClick);
+boardClick.addEventListener("click",counter);
 var currentCount = 0;
 var counter  = function(){
 	currentCount++;
 };
-console.log(counter);
+
+
+console.log(currentCount);
 // ChangeState defines how to change the css of a specific box(div) once clicked.
 // Once tested and fnctional figure out how to use .this to dry out the methodology.
 var changeState = function(){
@@ -35,9 +39,9 @@ document.getElementById("box9").addEventListener("click",changeState);
 // var winState = function(){
 	// console.log("win function running")
 	// if()
-}
 
-// add reset button
 
-// Add document.ready(), and clean up positioning
+// add reset button (attach page refreh to button)
+
+// Add document.ready(), and clean up positioning, maybe go neon.
 

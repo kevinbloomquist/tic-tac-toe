@@ -4,6 +4,11 @@ h1{
 	font-size: 50px;
 }
 
+button{
+	background:black;
+	color: white;
+}
+
 .resetButton {
 	height: 3em;
 	width:6em;
@@ -18,7 +23,7 @@ h1{
 	width:462px;
 }
 
-.clicked{
+.box.clicked{
 
 }
 
