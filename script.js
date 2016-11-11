@@ -9,7 +9,7 @@ var counter = function(){
 };
 console.log(counter);
 // ChangeState defines how to change the css of a specific box(div) once clicked.
-// Once tested and fnctional figure out how to use .this to dry out the methodology
+// Once tested and fnctional figure out how to use .this to dry out the methodology.
 var changeState = function(){
 	if(counter%2===0) {
 		document.getElementById("#box1").setAttribute("class","clicked").innerHTML("<p>X</p>");
@@ -29,6 +29,10 @@ document.getElementById("box7").addEventListener("click",changeState);
 document.getElementById("box8").addEventListener("click",changeState);
 document.getElementById("box9").addEventListener("click",changeState);
 
-// Add Win state.
+// Add winState.
 // if(box 123||or box 456||or159...)
+
+// add reset button
+
+// Add H1 and clean up positioning
 
