@@ -6,13 +6,12 @@ $( document ).ready(function() {
     console.log( "ready!" );
 });
 
-console.log(test);
 // listen for click and on click run the counter function advancing the counter
 var clickField = document.getElementsByClassName("grid");
 console.log(clickField);
 
-var currentCount = 1;
-var counter  = function(currentCount){
+var currentCount = 0;
+var counter  = function(){
 	currentCount++;
 };
 counter();
