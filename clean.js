@@ -23,6 +23,7 @@ var changeBox1 = function(counter){
 	}
 	advanceCounter();
 	console.log(counter);
+	document.getElementById("box1").disabled = true;
 };
 
 var changeBox2 = function(counter){

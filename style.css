@@ -30,6 +30,8 @@ border: 2px black solid;
 text-align: center;
 font-size: 40px;
 padding-top:50px;
+pointer-events:none;
+
 
 }
 
