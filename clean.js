@@ -23,6 +23,6 @@ var changeBox1 = function(a){
 	}
 };
 
-$("#box1").on("Click",changeBox1());
+// $("#box1").on("Click",changeBox1());
 	
 
