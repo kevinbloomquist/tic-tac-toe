@@ -3,7 +3,7 @@ h1{
 	font-family:verdana;
 	font-size: 50px;
 }
-
+/*restart button reloads page*/
 button{
 	background:black;
 	color: white;
@@ -17,12 +17,12 @@ button{
 	text-align: center;
 	background:;
 }
-
+/*wrapper div for playing grid*/
 #grid{
 	height:604px;
 	width:462px;
 }
-
+/*CSS state for played boxes*/
 .clicked{
 background-color:white;
 color:black;
@@ -31,17 +31,15 @@ text-align: center;
 font-size: 40px;
 padding-top:50px;
 pointer-events:none;
-
-
 }
-
+/*ititial class state for unplayed boxes*/
 .box{
 font-size: 40px;
 padding-top:50px;
 text-align: center;
 background:black;
 color:white;
-
+/*initial individual CSS styling and position for each box*/
 }
 #box1{
 	border-right:2px white solid;
