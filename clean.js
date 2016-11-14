@@ -2,16 +2,27 @@ var test = function() {
 console.log("new refresh!");
 };
 
-$( document ).ready(function() {
+$(document).ready(function() {
     console.log( "ready!" );
 });
 
-var clickField = document.getElementsByClassName("grid");
-console.log(clickField);
+var element = document.getElementsByClassName("grid");
+console.log(element);
 
 var counter = 0;
-function countUP () {
-		counter++;
-		console.log(counter);
+var advanceCounter = function(){
+  counter += 1;
+  console.log("clicked " + counter + " times.");
+};
+
+var changeBox1 = function(a){
+	if(a%2===0) {
+		$("#box1").removeClass("box").addClass("clicked").html("<p>X</p>");
+	} else if (a%2===1) {
+		$("#box1").removeClass("box").addClass("clicked").html("<p>O</p>");
 	}
-	countUP ();
+};
+
+$("#box1").on("Click",changeBox1());
+	
+
