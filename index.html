@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>TIC-TAC-TOE</h1>
-<button class = "resetButton">RESET</button>
+<button id = "resetButton" onclick = document.getElementById('resetButton').addEventListener('click',location.reload())>RESET</button>
 	<section id = "grid" onclick=document.getElementById('grid').addEventListener('click',advanceCounter)>
 		<div class = "col1 row1 box" id = "box1"></div>
 		<div class = "col2 row1 box" id = "box2"></div>

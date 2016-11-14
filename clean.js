@@ -9,7 +9,7 @@ $(document).ready(function() {
 var element = document.getElementsByClassName("grid");
 console.log(element);
 
-var counter = 0;
+var counter = 1;
 var advanceCounter = function(){
   counter += 1;
   console.log("clicked " + counter + " times.");
